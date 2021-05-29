@@ -1,0 +1,48 @@
+#logo {
+    display: block;
+    margin: auto;
+    padding-top: 250px;
+}
+
+.logo-div {
+    max-height: 92;
+    position: relative;
+    margin-top: auto;
+    height: 100%;
+    display: flex;
+    }
+
+#keyboard {
+
+    display: block;
+    position: relative;
+    left: 64%;
+    top: -60px;
+    width: 25px;
+    outline: none;
+}
+
+#pesquisar {
+    display: block;
+    position: relative;
+    margin: 30px auto;
+    width: 30%;
+    padding: 15px;
+    border-radius: 100px;
+    border: black;
+    outline-style: solid;
+    outline-color: rgb(194, 194, 194);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin-bottom: 0px;
+}
+
+#lupa {
+
+    display: block;
+    position: relative;
+    left: 35%;
+    top: -35px;
+    width: 25px;
+    outline: none;
+}
