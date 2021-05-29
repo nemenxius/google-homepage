@@ -95,7 +95,7 @@ button:hover {
 }
 
 .navitem {
-    
+        
         margin-right: 10px;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 13px;
@@ -103,6 +103,41 @@ button:hover {
         color: #000000;
 }
 
+.navitem:hover {
+    text-decoration: underline;
+}
+
 #userlogo {
     border-radius: 50%;
+}
+
+footer {    
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid #dadce0;
+        background-color: #f2f2f2;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+}
+
+.ftitem {
+    margin-right: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: #70757a;
+}
+
+.ftitem:hover {
+    text-decoration: underline;
+}
+
+.lfUrls {
+    padding: 15px;
+}
+
+.rtUrls {
+    padding: 15px;
 }
