@@ -1,3 +1,10 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 5px 0px 0px 0px;
+}
+
 #logo {
     display: block;
     margin: auto;
@@ -45,4 +52,36 @@
     top: -35px;
     width: 25px;
     outline: none;
+}
+
+#searchbuttons {
+    display: flex;
+    justify-content: center;
+    margin-top: -40px;
+}
+
+.searchbtn {
+    margin: 13px 4px 10px 4px;
+    padding: 10px;
+}
+
+button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+button:hover {
+    border: 1px solid #dadce0;
+    
 }
